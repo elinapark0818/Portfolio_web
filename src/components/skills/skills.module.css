@@ -1,0 +1,210 @@
+.container {
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+
+  margin: 1em;
+  margin-top: 0;
+  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+  color: white;
+  -webkit-box-shadow: 5px 5px 15px -3px pink;
+  box-shadow: 5px 5px 15px -3px pink;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  width: 100%;
+}
+.skills_btn:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.skills_btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  position: relative;
+  height: 2em;
+
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.skills_btn:hover {
+  background: pink;
+  color: white;
+}
+.skills_btn:before,
+.skills_btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: 400ms ease all;
+}
+.skills_btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.skills_btn:hover:before,
+.skills_btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.skill_category {
+  display: flex;
+  justify-content: center;
+}
+
+.skill_item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10%;
+  transition: all 300ms ease-in;
+}
+
+.skill_item:hover {
+  transform: scale(1.05);
+}
+
+.skill_icon {
+  font-size: 4em;
+}
+
+.etc_icon {
+  font-size: 2em;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+/*  */
+
+.skillset {
+  display: flex;
+  flex-direction: column;
+  background-color: palevioletred;
+  margin: 10em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding: 2em;
+  padding-left: 1em;
+}
+
+.setting {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  margin-left: 1em;
+}
+
+.htmlBar {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.htmlValue {
+  width: 95%;
+  height: 5px;
+  background-color: #c94f7c;
+}
+.cssBar {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.cssValue {
+  width: 85%;
+  height: 5px;
+  background-color: #c94f7c;
+}
+.jsBar {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.jsValue {
+  width: 90%;
+  height: 5px;
+  background-color: #c94f7c;
+}
+.reactBar {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.reactValue {
+  width: 80%;
+  height: 5px;
+  background-color: #c94f7c;
+}
+
+/*  */
+.etc1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1em;
+}
+.etc2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1em;
+}
+
+.etc_category1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+}
+.etc_category2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.etc_item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em;
+}

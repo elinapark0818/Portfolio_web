@@ -1,0 +1,165 @@
+.container {
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em;
+  margin-top: 0;
+  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+
+  color: white;
+  -webkit-box-shadow: 5px 5px 15px -3px pink;
+  box-shadow: 5px 5px 15px -3px pink;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+}
+
+.about_btn:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.about_btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  position: relative;
+  height: 2em;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.about_btn:hover {
+  background: pink;
+  color: white;
+}
+.about_btn:before,
+.about_btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: 400ms ease all;
+}
+.about_btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.about_btn:hover:before,
+.about_btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.ps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+.github {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  justify-content: center;
+}
+
+.github img {
+  width: 20em;
+  height: 10em;
+  line-height: 10em;
+  max-width: 100%;
+}
+
+.github .description {
+  display: flex;
+  align-items: center;
+
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.solved {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  justify-content: center;
+}
+
+.solved img {
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  max-width: 100%;
+}
+
+.solved .description {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.cs50 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  justify-content: center;
+}
+
+.cs50 img {
+  width: 20em;
+  height: 15em;
+  line-height: 15em;
+  max-width: 100%;
+}
+
+.cs50 .description {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.dreamcoding {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  justify-content: center;
+}
+
+.dreamcoding img {
+  width: 20em;
+  height: 10em;
+  line-height: 10em;
+  max-width: 100%;
+}
+
+.dreamcoding .description {
+  display: flex;
+  align-items: center;
+
+  margin: 1em;
+  padding: 0.5em;
+}

@@ -1,0 +1,11 @@
+.circle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rotateCircle {
+  position: fixed;
+  bottom: 200px;
+  margin: auto;
+  z-index: 100;
+}

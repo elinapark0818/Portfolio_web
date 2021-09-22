@@ -1,0 +1,35 @@
+.wrap {
+  position: relative;
+  padding: 0;
+}
+
+.topBtn {
+  position: fixed;
+  cursor: pointer;
+  background-color: white;
+  color: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+  opacity: 0;
+  bottom: 2em;
+  right: 2em;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: 0 none;
+  border: 2px solid linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+  font-size: 1em;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 10px 13px -7px pink, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px pink, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  transition: opacity 0.3s ease-in;
+}
+
+.topBtn.active {
+  z-index: 10;
+  opacity: 1;
+}
+
+.topBtn:hover,
+.topBtn:focus,
+.topBtn:active {
+  outline: 0 none;
+}

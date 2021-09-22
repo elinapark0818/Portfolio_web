@@ -1,0 +1,88 @@
+.container {
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em;
+  margin-top: 0;
+  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+
+  color: white;
+  -webkit-box-shadow: 5px 5px 15px -3px pink;
+  box-shadow: 5px 5px 15px -3px pink;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+}
+
+.contact_btn:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contact_btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  position: relative;
+  height: 2em;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.contact_btn:hover {
+  background: transparent;
+  color: white;
+}
+.contact_btn:before,
+.contact_btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: 400ms ease all;
+}
+.contact_btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.contact_btn:hover:before,
+.contact_btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.gmail,
+.github {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.icon {
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+
+.icon:hover {
+  transform: scale(1.02);
+}
