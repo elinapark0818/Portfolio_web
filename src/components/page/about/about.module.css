@@ -4,7 +4,7 @@
   font-weight: bold;
   margin: 1em;
   margin-top: 0;
-  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+  background: black;
 
   color: white;
   -webkit-box-shadow: 5px 5px 15px -3px pink;
@@ -44,7 +44,7 @@
 }
 
 .about_btn:hover {
-  background: pink;
+  background: transparent;
   color: white;
 }
 .about_btn:before,

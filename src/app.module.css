@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .app {
   font-family: "NanumGothic KR";
   font-style: normal;

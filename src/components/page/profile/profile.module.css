@@ -4,17 +4,12 @@
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   width: 100%;
-  height: auto;
   font-size: 1.5em;
-
+  font-weight: bold;
   margin: 1em;
-  margin-top: 2.5em;
-  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+  margin-top: 0;
+  background: black;
   color: white;
   -webkit-box-shadow: 5px 5px 15px -3px pink;
   box-shadow: 5px 5px 15px -3px pink;
@@ -76,19 +71,23 @@
 
 .main {
   display: flex;
+  justify-content: center;
   margin: 1em;
 }
 
 .image {
   display: flex;
+}
+
+.avatar {
+  display: flex;
   max-width: 20em;
   height: 20em;
-  line-height: 15em;
+  line-height: 20em;
 }
 
 .description {
   font-size: 0.8em;
-
   background-color: transparent;
   margin: 2em;
   color: white;
@@ -109,9 +108,14 @@
 
   .main {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
-  .avatar {
+  .image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     max-width: 100%;
     height: auto;
   }

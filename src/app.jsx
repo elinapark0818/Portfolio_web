@@ -1,16 +1,16 @@
 import React from 'react';
 import styles from './app.module.css';
-import Home from './components/home/home';
-import Profile from './components/profile/profile';
-import { useSpring, animated } from 'react-spring';
-import Skills from './components/skills/skills';
-import Projects from './components/projects/projects';
-import Contact from './components/contact/contact';
+import Home from './components/page/home/home';
+import About from './components/page/about/about';
+import Profile from './components/page/profile/profile';
+import Skills from './components/page/skills/skills';
+import Projects from './components/page/projects/projects';
+import Contact from './components/page/contact/contact';
 import TopBtn from './components/topBtn/topBtn';
-import About from './components/about/about';
+import { useSpring, animated } from 'react-spring';
 import { ThemeProvider } from 'styled-components';
 import theme from "./styles/theme/theme";
-import RotateCircle from './components/rotate_circle/rotateCircle';
+import Navbar from './components/navbar/navlist';
 
 export default function App() {
   const display = useSpring({ 
@@ -18,13 +18,12 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-
     <div className={styles.app}>
-      <RotateCircle/>
+      <Navbar/>
       <TopBtn/>
     <header className={styles.header}>
       <animated.div style={display}>
-        <Home />
+        <Home/>
       </animated.div>
     </header>
     <main className={styles.main}>
