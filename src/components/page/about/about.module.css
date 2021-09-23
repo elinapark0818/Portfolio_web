@@ -2,10 +2,11 @@
   width: 100%;
   font-size: 1.5em;
   font-weight: bold;
-  margin: 1em;
+  /* margin: 1em; */
   margin-top: 0;
+
   color: white;
-  background-color: #1b1b1b;
+  background-color: hsl(0, 0%, 11%);
   z-index: 10;
 }
 

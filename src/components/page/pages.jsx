@@ -24,16 +24,16 @@ export default function Pages() {
   return (
     <div>
       <div id="home"><Home/></div>
-      <Toggle/>
+      {/* <Toggle/> */}
       <div id="profile"><Profile/></div>
       <div id="about" style={{
-          opacity: (position - 1100) / 50,
+          opacity: (position - 750) / 50,
         }}><About/></div>
       <div id="skills" style={{
-          opacity: (position - 2600) / 50,
+          opacity: (position - 2300) / 50,
         }}><Skills/></div>
       <div id="projects" style={{
-          opacity: (position - 4000) / 50,
+          opacity: (position - 3800) / 50,
         }}><Projects/></div>
       <div id="contact"><Contact/></div>
     </div>

@@ -35,7 +35,7 @@ const Profile = () => {
             <div 
               className={styles.description}
               style={{
-                opacity: (position - 700) / 50,
+                opacity: (position - 300) / 50,
               }}
               >
               <h3>이름 : 박 윤 정<br/>
@@ -47,7 +47,7 @@ const Profile = () => {
               <br/>
               <div
               style={{
-                opacity: (position - 800) / 50,
+                opacity: (position - 500) / 50,
               }}
               >
               <h3>"소프트웨어에는 사실 의미있는 것들이 거의 없다.<br/>
