@@ -8,24 +8,6 @@ export default function Projects() {
           <div className={styles.title}>
           <button className={styles.projects_btn}>Projects</button>
           </div>
-
-          {/* <header className={styles.categories}>
-            <button 
-            className={styles.category_btn}
-            datatype="*">
-              All <span className={styles.category_count}>5</span>
-            </button>
-            <button 
-            className={styles.category_btn}
-            datatype="Website">
-              Website<span className={styles.category_count}>4</span>
-            </button>
-            <button 
-            className={styles.category_btn}
-            datatype="MiniGame">
-              Mini-games<span className={styles.category_count}>1</span>
-            </button>
-          </header> */}
           
           <main className={styles.project_box}>
             

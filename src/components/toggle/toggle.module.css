@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -17.5em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 0;
+  border-radius: 0.1em;
+  position: relative;
+  margin: 0.5em;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #ec0b43;
+}
+
+.btn:before {
+  animation: sparkle 4s infinite linear;
+  background: linear-gradient(
+    90deg,
+    #7fefbd 0%,
+    #fff689 11%,
+    #ec0b43 22%,
+    #7fefbd 33%,
+    #fff689 44%,
+    #ec0b43 55%,
+    #7fefbd 66%,
+    #fff689 77%,
+    #ec0b43 88%,
+    #7fefbd 100%
+  );
+  background-size: 300% 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  filter: blur(3px);
+  z-index: -1;
+  transform: scale(0.99) translateY(3px);
+}
+
+@keyframes sparkle {
+  from {
+    background-position: 0% 100%;
+  }
+  to {
+    background-position: 200% 100%;
+  }
+}
