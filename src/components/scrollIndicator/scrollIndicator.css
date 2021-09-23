@@ -1,0 +1,14 @@
+.wrap {
+  background-color: blue;
+  height: 1em;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.style {
+  height: 1em;
+  background-color: white;
+}

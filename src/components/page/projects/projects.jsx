@@ -9,7 +9,7 @@ export default function Projects() {
           <button className={styles.projects_btn}>Projects</button>
           </div>
 
-          <header className={styles.categories}>
+          {/* <header className={styles.categories}>
             <button 
             className={styles.category_btn}
             datatype="*">
@@ -25,7 +25,7 @@ export default function Projects() {
             datatype="MiniGame">
               Mini-games<span className={styles.category_count}>1</span>
             </button>
-          </header>
+          </header> */}
           
           <main className={styles.project_box}>
             

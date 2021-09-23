@@ -1,15 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
+.nav {
+  position: fixed;
+  height: 3em;
+  width: 100%;
+  top: 0;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  z-index: 100;
 }
 
-body {
-  background-color: black;
+.nav_black {
+  position: fixed;
+  height: 3em;
+  width: 100%;
+  top: 0;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
 }
 
 .pages {
-  color: white;
-  text-align: center;
-  font-size: 3.5rem;
-  margin-top: 10%;
+  margin-top: 10em;
 }

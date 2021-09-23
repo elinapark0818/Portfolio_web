@@ -1,28 +1,49 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from 'react'
+import './navbar.css';
 import { NavLink } from "react-router-dom";
-import "./navbar.css";
 
-function Navbar() {
+export default function Navbar() {
+
+  const [navSize, setnavSize] = useState("10rem");
+  const [navColor, setnavColor] = useState("transparent");
+  
+  const listenScrollEvent = () => {
+    window.scrollY > 10 ? setnavColor("#252734") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
+
 
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
   return (
-    <>
+    <div >
+
+
       <nav className="navbar">
-        <div className="nav-container">
+        <div className="nav-container"  style={{
+          backgroundColor: navColor,
+          height: navSize,
+          transition: "all 1s"
+        }}>
           <NavLink exact to="/" className="nav-logo">
             Developer Elina
           </NavLink>
 
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? "nav-menu active" : "nav-menu"} >
             <li className="nav-item">
               <NavLink
                 exact
                 to="/"
-                activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                
                 >
                   Home
               </NavLink>
@@ -31,20 +52,19 @@ function Navbar() {
               <NavLink
                 exact
                 to="/profile"
-                activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                
                 >
-                  Profile
+                Profile
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
                 exact
                 to="/about"
-                activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                
                 >
                   About
               </NavLink>
@@ -53,9 +73,8 @@ function Navbar() {
               <NavLink
                 exact
                 to="skills"
-                activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                
                 >
                   Skills
               </NavLink>
@@ -64,9 +83,8 @@ function Navbar() {
               <NavLink
                 exact
                 to="/projects"
-                activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                
                 >
                   Projects
               </NavLink>
@@ -75,25 +93,19 @@ function Navbar() {
               <NavLink
                 exact
                 to="/contact"
-                activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+
                 >
                   Contact
               </NavLink>
             </li>
           </ul>
-
-          <div className="nav-icon" onClick={handleClick}>
-            <button className={click ? "menu" : "close"}>
-              Menu
-            </button>
-          </div>
         </div>
 
+      
       </nav>
-    </>
-  );
+    </div>
+  )
 }
 
-export default Navbar;
+

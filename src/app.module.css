@@ -6,3 +6,18 @@ body {
   font-family: "NanumGothic KR";
   font-style: normal;
 }
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(black, white);
+  border-radius: 1em;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(white, black);
+  border-radius: 1em;
+}
