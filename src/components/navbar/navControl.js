@@ -26,7 +26,7 @@ export default function NavControl() {
       <div className="nav-container" style={{
           backgroundColor: navColor,
           height: navSize,
-          transition: "all 300ms"
+          transition: "all 1s"
         }}>
           <div className="navLogo">
             Front-end developer Elina

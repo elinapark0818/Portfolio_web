@@ -27,13 +27,13 @@ export default function Pages() {
       <Toggle/>
       <div id="profile"><Profile/></div>
       <div id="about" style={{
-          opacity: (position - 1200) / 50,
+          opacity: (position - 1100) / 50,
         }}><About/></div>
       <div id="skills" style={{
-          opacity: (position - 2800) / 50,
+          opacity: (position - 2600) / 50,
         }}><Skills/></div>
       <div id="projects" style={{
-          opacity: (position - 4200) / 50,
+          opacity: (position - 4000) / 50,
         }}><Projects/></div>
       <div id="contact"><Contact/></div>
     </div>

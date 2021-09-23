@@ -8,10 +8,10 @@ export default function Contact() {
   const color = useSpring({
     loop: true,
     to: [
-      { opacity: 1, color: '#ffaaee' },
-      { opacity: 0, color: 'rgb(14,26,19)'},
+      { opacity: 1, color: '#ffff5a' },
+      { opacity: 0.8, color: 'rgb(14,26,19)'},
     ],
-    from: { opacity: 0, color: 'red' },
+    from: { opacity: 0.1, color: 'red' },
   })
 
   return (
