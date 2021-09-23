@@ -24,7 +24,7 @@ export default function Pages() {
   return (
     <div>
       <div id="home"><Home/></div>
-      <Toggle/>
+      {/* <Toggle/> */}
       <div id="profile"><Profile/></div>
       <div id="about" style={{
           opacity: (position - 750) / 50,
