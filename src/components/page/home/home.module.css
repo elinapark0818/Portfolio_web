@@ -4,8 +4,10 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 20em;
+  height: 60em;
   color: white;
+  margin: 0;
+  margin-bottom: 0;
 }
 
 @keyframes typing {
@@ -21,11 +23,12 @@
 }
 
 .title {
+  margin-top: -5em;
   color: white;
-  background-color: black;
+  background-color: #000;
   font-size: 2.5em;
   z-index: 1;
-  width: 20em;
+  width: 22em;
   overflow: hidden;
   white-space: nowrap;
   border-right: 0.05em solid white;
@@ -33,9 +36,10 @@
 }
 
 .img {
+  top: 0;
   position: absolute;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   -webkit-box-shadow: 5px 5px 15px -3px white;
   box-shadow: 5px 5px 15px -3px white;
 }

@@ -1,29 +1,64 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import {Link} from 'react-scroll'
 import './navControl.css';
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import Navbar from './navbar';
-import Profile from '../page/profile/profile';
-import About from '../page/about/about';
-import Skills from '../page/skills/skills';
-import Projects from '../page/projects/projects';
-import Contact from '../page/contact/contact';
-import Home from '../page/home/home';
+
 
 export default function NavControl() {
+  const [navSize, setnavSize] = useState("10rem");
+  const [navColor, setnavColor] = useState("transparent");
+  
+  const listenScrollEvent = () => {
+    window.scrollY > 10 ? setnavColor("#1b1b1b") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
 
   return (
-      <BrowserRouter>
-      <Navbar/>
-      <div className="pages">
-        <Switch>
-          <Route path='/'exact component={Home}/>
-          <Route path='/profile' component={Profile}/>
-          <Route path='/about' component={About}/>
-          <Route path='/skills' component={Skills}/>
-          <Route path='/projects' component={Projects}/>
-          <Route path='/contact' component={Contact}/>
-        </Switch>
+    <div>
+    <Navbar/>
+      <div className="nav-container" style={{
+          backgroundColor: navColor,
+          height: navSize,
+          transition: "all 300ms"
+        }}>
+          <div className="navLogo">
+            Front-end developer Elina
+          </div>
+        <ul className="navList">
+          <li className="navItem">
+            <Link activeClass="active" to="home" spy={true} smooth={true}>
+              Home
+            </Link></li>
+          <li className="navItem">
+            <Link to="profile" spy={true} smooth={true}>
+              Profile
+            </Link></li>
+          <li className="navItem">
+            <Link to="about" spy={true} smooth={true}>
+              About
+            </Link></li>
+          <li className="navItem">
+            <Link to="skills" spy={true} smooth={true}>
+              Skills
+            </Link></li>
+          <li className="navItem">
+            <Link to="projects" spy={true} smooth={true}>
+              Projects
+            </Link></li>
+          <li className="navItem">
+            <Link to="contact" spy={true} smooth={true}>
+              Contact
+            </Link></li>
+        </ul>
       </div>
-    </BrowserRouter>
+
+    </div>
   )
 }
