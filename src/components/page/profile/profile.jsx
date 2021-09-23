@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './profile.module.css';
 
 
 const Profile = () => {
+
+  const [position, setPositon] = useState(0);
+  function onScroll() {
+    setPositon(window.scrollY);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+    return () => {
+      window.removeEventListener("scroll",onScroll);
+    };
+  }, []);
     
 
   return (
@@ -20,21 +32,31 @@ const Profile = () => {
               />
               </div>
 
-            <div className={styles.description}>
+            <div 
+              className={styles.description}
+              style={{
+                opacity: (position - 700) / 50,
+              }}
+              >
               <h3>이름 : 박 윤 정<br/>
               생년월일 : 1992.06.04<br/>
               학력 : 한국교통대학교 졸업<br/>
               마이다스아이티 QA (6개월)<br/>
               스마일게이트RPG GM (12개월)<br/>
               </h3>
-            <br/>
+              <br/>
+              <div
+              style={{
+                opacity: (position - 800) / 50,
+              }}
+              >
               <h3>"사용성을 고려하여 설계하고<br/>
               편안한 기능을 구현하는 개발자가 될겁니다. <br/>
               도전을 두려워하지 않고, 기본에 충실하여 <br/>
               나만의 분야를 개척하여 인정받는 <br/> 
               멋있는 인생을 사는 것이 최종 목표입니다."</h3>
+              </div>
             </div>
-
           </main>
           </div>
       </div>
