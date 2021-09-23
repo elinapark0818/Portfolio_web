@@ -8,8 +8,8 @@
   font-size: 1.5em;
   font-weight: bold;
   margin: 1em;
-  margin-top: 0;
-  background: black;
+  margin-top: 0.5em;
+  background: #1b1b1b;
   color: white;
   -webkit-box-shadow: 5px 5px 15px -3px pink;
   box-shadow: 5px 5px 15px -3px pink;

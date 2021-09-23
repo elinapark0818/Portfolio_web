@@ -5,10 +5,8 @@
 
   margin: 1em;
   margin-top: 0;
-  background: black;
+  background: #1b1b1b;
   color: white;
-  -webkit-box-shadow: 5px 5px 15px -3px pink;
-  box-shadow: 5px 5px 15px -3px pink;
 }
 
 .title {
@@ -114,7 +112,7 @@
 }
 
 .project_box {
-  background: white;
+  background: #1b1b1b;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -145,7 +143,7 @@
 
 .project_description {
   position: absolute;
-  background-color: black;
+  background-color: #1b1b1b;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,10 +1,19 @@
 import React from 'react';
 import styles from './contact.module.css';
-import { SiGmail } from "react-icons/si";
+import { useSpring, animated } from 'react-spring'
 import { SiGithub } from "react-icons/si";
 
 
 export default function Contact() {
+  const color = useSpring({
+    loop: true,
+    to: [
+      { opacity: 1, color: '#ffaaee' },
+      { opacity: 0, color: 'rgb(14,26,19)'},
+    ],
+    from: { opacity: 0, color: 'red' },
+  })
+
   return (
     <div className={styles.contact}>
       <div className={styles.container}>
@@ -12,11 +21,13 @@ export default function Contact() {
           <button className={styles.contact_btn}>Contact</button>
           </div>
         
-          <div className={styles.gmail}>
-            <SiGmail  className={styles.icon}/>
-          </div>
-            <div className={styles.github}>
-              <SiGithub className={styles.icon}/>
+            <animated.div className={styles.github} style={color}>
+              <SiGithub className={styles.icon}
+              onClick={() => window.open('https://github.com/elinapark0818', '_blank')}
+              />
+            </animated.div>
+            <div className={styles.gmail}>
+              <p>elinapark0818@gmail.com</p>
             </div>
         </div>
     </div>

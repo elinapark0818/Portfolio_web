@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import styles from './skills.module.css';
 import { useSpring, animated } from 'react-spring';
 import { SiHtml5 } from "react-icons/si";
@@ -15,17 +16,8 @@ import { SiFirebase } from "react-icons/si";
 import { SiJira } from "react-icons/si";
 
 export default function Skills() {
-
-  const colorful1 = useSpring({
-    color: "red",
-  })
-  const colorful2 = useSpring({
-    color: "blue"
-  })
-  const colorful3 = useSpring({
-    color: "gold",
-  })
-  const colorful4 = useSpring({
+  
+  const colorful = useSpring({
     loop: true,
     from: { opacity: 0.5, color: "blue" },
     to: [{ opacity: 1, color: '#a1f4f7' },
@@ -44,27 +36,27 @@ export default function Skills() {
               <div className={styles.skill}>
                 <ul className={styles.skill_category}>
                   <li className={styles.skill_item}>
-                    <animated.div style={colorful1}>
-                      <SiHtml5 className={styles.skill_icon}/>
-                      </animated.div>
+                    <div>
+                      <SiHtml5 className={styles.skill_icon} style={{color: 'red'}} />
+                      </div>
                       <p className={styles.description}>Html5</p>
                   </li>
                   <li className={styles.skill_item}>
-                    <animated.div style={colorful2}>
-                      <SiCss3 className={styles.skill_icon}/>
-                      </animated.div>
+                    <div>
+                      <SiCss3 className={styles.skill_icon} style={{color: 'blue'}}/>
+                      </div>
 
                       <p className={styles.description}>CSS3</p>
                   </li>
                   <li className={styles.skill_item}>
-                    <animated.div style={colorful3}>
-                      <SiJavascript className={styles.skill_icon}/>
-                      </animated.div>
+                    <div>
+                      <SiJavascript className={styles.skill_icon} style={{color: 'gold'}}/>
+                      </div>
 
                       <p className={styles.description}>JavaScript</p>
                   </li>
                   <li className={styles.skill_item}>
-                    <animated.div style={colorful4}>
+                    <animated.div style={colorful}>
                     <SiReact className={styles.skill_icon} />
                       </animated.div>
                       <p className={styles.description}>React</p>

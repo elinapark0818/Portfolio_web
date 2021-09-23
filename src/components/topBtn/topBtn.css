@@ -1,3 +1,19 @@
+/* html, body {
+  height: 100%;
+} */
+
+.topBtn:hover {
+  background: rgb(236, 232, 237);
+  background: linear-gradient(
+    0deg,
+    rgba(236, 232, 237, 0.7908205518535539) 15%,
+    rgba(113, 104, 104, 0.7067869384081757) 73%
+  );
+  box-shadow: 0px 15px 20px #1b1b1b;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
 .wrap {
   position: relative;
   padding: 0;
@@ -14,13 +30,12 @@
   height: 3em;
   border-radius: 50%;
   border: 0 none;
-  border: 2px solid black;
   font-size: 1em;
-  font-weight: bold;
-  -webkit-box-shadow: 0px 10px 13px -7px black,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px black, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-  transition: opacity 0.3s ease-in;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  outline: none;
 }
 
 .topBtn.active {
@@ -32,4 +47,8 @@
 .topBtn:focus,
 .topBtn:active {
   outline: 0 none;
+}
+
+.up {
+  font-size: 2em;
 }

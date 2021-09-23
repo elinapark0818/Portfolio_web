@@ -5,10 +5,8 @@
 
   margin: 1em;
   margin-top: 0;
-  background: black;
+  background: #1b1b1b;
   color: white;
-  -webkit-box-shadow: 5px 5px 15px -3px pink;
-  box-shadow: 5px 5px 15px -3px pink;
 }
 
 .title {
@@ -100,7 +98,7 @@
 }
 
 .skill_icon {
-  font-size: 4em;
+  font-size: 5em;
 }
 
 .etc_icon {
@@ -117,7 +115,7 @@
 .skillset {
   display: flex;
   flex-direction: column;
-  background-color: palevioletred;
+  background-color: gray;
   margin: 10em;
   margin-top: 1em;
   margin-bottom: 2em;
@@ -141,7 +139,7 @@
 .htmlValue {
   width: 95%;
   height: 5px;
-  background-color: #c94f7c;
+  background-color: #1b1b1b;
 }
 .cssBar {
   width: 100%;
@@ -152,7 +150,7 @@
 .cssValue {
   width: 85%;
   height: 5px;
-  background-color: #c94f7c;
+  background-color: #1b1b1b;
 }
 .jsBar {
   width: 100%;
@@ -163,7 +161,7 @@
 .jsValue {
   width: 90%;
   height: 5px;
-  background-color: #c94f7c;
+  background-color: #1b1b1b;
 }
 .reactBar {
   width: 100%;
@@ -174,7 +172,7 @@
 .reactValue {
   width: 80%;
   height: 5px;
-  background-color: #c94f7c;
+  background-color: #1b1b1b;
 }
 
 /*  */
