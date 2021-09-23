@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "caniuse-lite": "^1.0.30001260",
     "fonts": "^0.0.2",
     "google": "^2.1.0",
     "react": "^17.0.2",
@@ -31,6 +32,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "http://elina-portfolioweb.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",
