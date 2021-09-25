@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: #1b1b1b;
 }
 
 .app {
@@ -12,13 +11,13 @@ body {
   width: 0.5em;
 }
 ::-webkit-scrollbar-track {
-  background-color: white;
+  background-color: #eeeeee;
 }
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(white, #1b1b1b);
+  background-image: linear-gradient(#eeeeee, #1b1b1b);
   border-radius: 1em;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-image: linear-gradient(#1b1b1b, white);
+  background-image: linear-gradient(#1b1b1b, #eeeeee);
   border-radius: 1em;
 }

@@ -4,8 +4,7 @@
   font-weight: bold;
   /* margin: 1em; */
   margin-top: 0;
-
-  color: white;
+  color: #eeeeee;
   background-color: hsl(0, 0%, 11%);
   z-index: 10;
 }
@@ -28,7 +27,7 @@
 }
 .about_btn {
   background-color: transparent;
-  color: white;
+  color: #eeeeee;
   border: none;
   position: relative;
   height: 2em;
@@ -44,7 +43,7 @@
 
 .about_btn:hover {
   background: transparent;
-  color: white;
+  color: #eeeeee;
 }
 .about_btn:before,
 .about_btn:after {
@@ -54,7 +53,7 @@
   right: 0;
   height: 2px;
   width: 0;
-  background: white;
+  background: #eeeeee;
   transition: 400ms ease all;
 }
 .about_btn:after {

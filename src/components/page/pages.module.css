@@ -1,0 +1,4 @@
+.pagesContainer {
+  display: flex;
+  flex-direction: column;
+}

@@ -6,7 +6,7 @@
   margin-top: 0;
 
   background: #1b1b1b;
-  color: white;
+  color: #eeeeee;
 }
 
 .title {
@@ -28,7 +28,7 @@
 }
 .skills_btn {
   background-color: transparent;
-  color: white;
+  color: #eeeeee;
   border: none;
   position: relative;
   height: 2em;
@@ -45,7 +45,7 @@
 
 .skills_btn:hover {
   background: transparent;
-  color: white;
+  color: #eeeeee;
 }
 .skills_btn:before,
 .skills_btn:after {
@@ -55,7 +55,7 @@
   right: 0;
   height: 2px;
   width: 0;
-  background: white;
+  background: #eeeeee;
   transition: 400ms ease all;
 }
 .skills_btn:after {
@@ -133,7 +133,7 @@
 .htmlBar {
   width: 100%;
   height: 5px;
-  background-color: white;
+  background-color: #eeeeee;
 }
 
 .htmlValue {
@@ -144,7 +144,7 @@
 .cssBar {
   width: 100%;
   height: 5px;
-  background-color: white;
+  background-color: #eeeeee;
 }
 
 .cssValue {
@@ -155,7 +155,7 @@
 .jsBar {
   width: 100%;
   height: 5px;
-  background-color: white;
+  background-color: #eeeeee;
 }
 
 .jsValue {
@@ -166,7 +166,7 @@
 .reactBar {
   width: 100%;
   height: 5px;
-  background-color: white;
+  background-color: #eeeeee;
 }
 
 .reactValue {

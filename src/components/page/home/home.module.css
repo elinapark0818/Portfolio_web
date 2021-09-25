@@ -10,8 +10,9 @@ body {
   align-items: center;
   width: 100%;
   height: 40em;
-  color: white;
+  color: #eeeeee;
   margin: 0;
+  position: relative;
 }
 
 @keyframes typing {
@@ -27,14 +28,14 @@ body {
 }
 
 .title {
-  color: white;
+  color: #eeeeee;
   background-color: #000;
   font-size: 2.5em;
   z-index: 1;
   width: 22em;
   overflow: hidden;
   white-space: nowrap;
-  border-right: 0.05em solid white;
+  border-right: 0.05em solid #eeeeee;
   animation: typing 3s steps(20), cursor 1s steps(1) infinite;
 }
 

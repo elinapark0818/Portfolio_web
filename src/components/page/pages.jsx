@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import styles from './pages.module.css';
 import Toggle from '../toggle/toggle'
 import About from './about/about'
 import Contact from './contact/contact'
@@ -22,19 +23,13 @@ export default function Pages() {
   }, []);
 
   return (
-    <div >
+    <div className={styles.pagesContainer}>
       <div id="home"><Home/></div>
-      <Toggle/>
       <div id="profile"><Profile/></div>
-      <div id="about" style={{
-          opacity: (position - 750) / 50,
-        }}><About/></div>
-      <div id="skills" style={{
-          opacity: (position - 2300) / 50,
-        }}><Skills/></div>
-      <div id="projects" style={{
-          opacity: (position - 3800) / 50,
-        }}><Projects/></div>
+      <div id="about"><About/></div>
+      <div id="skills"><Skills/></div>
+      <div id="projects"><Projects/></div>
+      <Toggle/>
       <div id="contact"><Contact/></div>
     </div>
   )

@@ -3,14 +3,8 @@
 } */
 
 .topBtn:hover {
-  background: rgb(236, 232, 237);
-  background: linear-gradient(
-    0deg,
-    rgba(236, 232, 237, 0.7908205518535539) 15%,
-    rgba(113, 104, 104, 0.7067869384081757) 73%
-  );
-  box-shadow: 0px 15px 20px #1b1b1b;
-  color: #fff;
+  color: gold;
+  background-color: transparent;
   transform: translateY(-7px);
 }
 
@@ -22,7 +16,8 @@
 .topBtn {
   position: fixed;
   cursor: pointer;
-  background-color: white;
+  background-color: transparent;
+  color: #eeeeee;
   opacity: 0;
   bottom: 2em;
   right: 2em;
@@ -33,7 +28,6 @@
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   outline: none;
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './topBtn.css';
-import { BsChevronUp } from "react-icons/bs";
+import { MdArrowUpward } from "react-icons/md";
 
 
 export default function TopBtn() {
@@ -41,7 +41,7 @@ export default function TopBtn() {
         <button 
           className={BtnStatus ? "topBtn active" : "topBtn"}
           onClick={handleTop}
-        ><BsChevronUp className="up"/>
+        ><MdArrowUpward className="up"/>
         </button>
       </div>
     </div>

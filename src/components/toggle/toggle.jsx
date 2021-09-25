@@ -10,12 +10,12 @@ const Toggle = () => {
 
   return (
     <div className={styles.container}>
-      <animated.h1 style={fade}>"방문해주셔서 감사합니다.😃"</animated.h1>
       
       <button onClick={()=> setToggle(!isToggle)}
         className={styles.btn}
         >Click
       </button>
+      <animated.h1 style={fade}>"방문해주셔서 감사합니다.😃"</animated.h1>
       
     </div>
   );

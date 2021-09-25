@@ -3,7 +3,7 @@
   font-size: 1.5em;
   font-weight: bold;
   background: #1b1b1b;
-  color: white;
+  color: #eeeeee;
 }
 
 .contact {
@@ -19,7 +19,7 @@
 }
 .contact_btn {
   background-color: transparent;
-  color: white;
+  color: #eeeeee;
   border: none;
   position: relative;
   height: 2em;
@@ -35,7 +35,7 @@
 
 .contact_btn:hover {
   background: transparent;
-  color: white;
+  color: #eeeeee;
 }
 .contact_btn:before,
 .contact_btn:after {
@@ -45,7 +45,7 @@
   right: 0;
   height: 2px;
   width: 0;
-  background: white;
+  background: #eeeeee;
   transition: 400ms ease all;
 }
 .contact_btn:after {
