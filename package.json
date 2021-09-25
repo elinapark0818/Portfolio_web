@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://github.com/elinapark0818",
+  "homepage": "http://elina-portfolioweb.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",
