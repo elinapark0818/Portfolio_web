@@ -1,10 +1,17 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  line-height: 100%;
+}
+
 .nav-container {
   position: fixed;
   display: flex;
   justify-content: flex-end;
   margin: 0;
   height: 2.5em;
-  width: 100%;
+  width: 100vw;
   top: 0;
   transition-timing-function: ease-in;
   transition: 0.5s;

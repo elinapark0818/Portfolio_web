@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import {Link} from 'react-scroll'
 import './navControl.css';
-import Navbar from './navbar';
 
 
 export default function NavControl() {
@@ -21,10 +20,10 @@ export default function NavControl() {
   }, []);
 
   return (
-    <div>
-    <Navbar/>
+    <div className="container">
       <div className="nav-container" style={{
           backgroundColor: navColor,
+          width: "100%",
           height: navSize,
           transition: "all 1s"
         }}>
