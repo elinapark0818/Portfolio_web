@@ -25,7 +25,8 @@ export default function About() {
           </div>
           
 
-            <div className={styles.github}>
+            <div className={styles.github}
+              data-aos="fade-right">
               <img src="./img/about_img/github_img.png" alt="github" />
               <div className={styles.description}>
                 <p>기억 보다는 기록을<br/>
@@ -34,7 +35,8 @@ export default function About() {
               </div>
             </div>
             
-            <div className={styles.cs50}>
+            <div className={styles.cs50}
+              data-aos="fade-left">
               <div className={styles.description}>
                 <p>컴퓨터 과학은 기본적으로 숙지할 것<br/>
                   '우아한Tech'에서 cs관련 영상도 틈틈히 시청하고<br/>
@@ -42,7 +44,9 @@ export default function About() {
               </div>
               <img src="./img/about_img/cs50_img.png" alt="cs50" />
             </div>
-            <div className={styles.dreamcoding}>
+
+            <div className={styles.dreamcoding}
+              data-aos="fade-right">
               <img src="./img/about_img/dreamcoding_img.png" alt="cs50" />
               <div className={styles.description}>
                 <p>"Don't forget code your dream!" <br/>
@@ -51,7 +55,8 @@ export default function About() {
               </div>
             </div>
 
-            <div className={styles.solved}>
+            <div className={styles.solved}
+              data-aos="fade-left">
               <img src="./img/about_img/solved_img.png" alt="solved" />
               <div className={styles.description}>
                 <p>알고리즘은 필수!<br/>

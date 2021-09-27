@@ -2,10 +2,9 @@
   width: 100%;
   font-size: 1.5em;
   font-weight: bold;
-  /* margin: 1em; */
   margin-top: 0;
   color: #eeeeee;
-  background-color: hsl(0, 0%, 11%);
+  background-color: #1b1b1b;
   z-index: 10;
 }
 

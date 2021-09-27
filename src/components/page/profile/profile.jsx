@@ -1,21 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import styles from './profile.module.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 const Profile = () => {
 
-  const [position, setPositon] = useState(0);
-  function onScroll() {
-    setPositon(window.scrollY);
-  }
-
-  useEffect(() => {
-    window.addEventListener("scroll", onScroll);
-    return () => {
-      window.removeEventListener("scroll",onScroll);
-    };
-  }, []);
-    
 
   return (
     <div className={styles.profile}>
@@ -34,9 +25,7 @@ const Profile = () => {
 
             <div 
               className={styles.description}
-              style={{
-                opacity: (position - 300) / 50,
-              }}
+              data-aos="fade-up"
               >
               <h3>이름 : 박 윤 정<br/>
               생년월일 : 1992.06.04<br/>
@@ -46,10 +35,8 @@ const Profile = () => {
               </h3>
               <br/>
               <div
-              style={{
-                opacity: (position - 500) / 50,
-              }}
-              >
+                data-aos="fade-up"
+                >
               <h3>"소프트웨어에는 사실 의미있는 것들이 거의 없다.<br/>
               만일 그런 게 있다고 할지라도,<br/>
               유일한 성공척도는 고객들이 뭐가 문제인지 몰라<br/> 

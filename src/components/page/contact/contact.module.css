@@ -68,6 +68,7 @@
 .gmail {
   display: flex;
   justify-content: center;
+  color: #eeeeee;
 }
 
 .github {

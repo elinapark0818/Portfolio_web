@@ -27,7 +27,7 @@ export default function Contact() {
               />
             </animated.div>
             <div className={styles.gmail}>
-              <p>elinapark0818@gmail.com</p>
+              <p className={styles.mail}>elinapark0818@gmail.com</p>
             </div>
         </div>
     </div>
