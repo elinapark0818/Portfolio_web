@@ -28,7 +28,7 @@ export default function NavControl() {
           transition: "all 1s"
         }}>
           <div className="navLogo">
-            Front-end developer Elina
+            developer Elina
           </div>
         <ul className="navList">
           <li className="navItem">

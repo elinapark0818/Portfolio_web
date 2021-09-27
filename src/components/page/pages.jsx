@@ -18,7 +18,6 @@ export default function Pages() {
       <div id="about"><About/></div>
       <div id="skills"><Skills/></div>
       <div id="projects"><Projects/></div>
-      <Toggle/>
       <div id="contact"><Contact/></div>
     </div>
   )

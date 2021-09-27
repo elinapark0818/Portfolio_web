@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import styles from './about.module.css';
+import { useSpring, animated } from 'react-spring'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -7,6 +8,10 @@ AOS.init();
 
 
 export default function About() {
+  const [isToggle, setToggle] = useState(false);
+  const fade = useSpring({
+    opacity: isToggle ? 1 : 0
+  });
 
   
   return (
@@ -20,12 +25,21 @@ export default function About() {
           <div className={styles.ps}
             data-aos="fade-up">
           <p>" 친절한 개발자가 되어 편리한 프로그램을 만들어서<br/>
-          많은 사람들에게 도움을 줄 수 있는 사람으로 성장할겁니다.<br/>
-          아래에는 저의 결심이 보통이 아니라는 것을 어필하고자 합니다."</p>
+          많은 사람들에게 도움을 줄 수 있는 사람이 되고싶습니다.<br/>
+          아래에는 그 동안 개발자가 되기 위한 준비해온 과정을 담아보았습니다."</p>
           </div>
-          
-
-            <div className={styles.github}
+            <div className={styles.btnWrap}>
+            <button
+              className={styles.btn}
+              onClick={()=> setToggle(!isToggle)}
+              >more
+            </button>
+            </div>
+          <animated.div 
+            className={styles.group}
+            style={fade}
+            >
+          <div className={styles.github}
               data-aos="fade-right">
               <img src="./img/about_img/github_img.png" alt="github" />
               <div className={styles.description}>
@@ -65,6 +79,10 @@ export default function About() {
                 부딪치고 깨져도 포기하지 않는 힘을 기르고 있습니다.</p>
               </div>
             </div>
+          </animated.div>
+          
+
+            
         </div>
       </div>  
   )

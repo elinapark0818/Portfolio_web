@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import styles from './skills.module.css';
 import { useSpring, animated } from 'react-spring';
 import { SiHtml5 } from "react-icons/si";
@@ -36,79 +35,48 @@ export default function Skills() {
               <div className={styles.skill}>
                 <ul className={styles.skill_category}>
                   <li className={styles.skill_item}>
-                    <div>
+                    <div 
+                      data-aos="zoom-in"
+                      data-aos-delay="100">
                       <SiHtml5 className={styles.skill_icon} style={{color: 'red'}} />
                       </div>
                       <p className={styles.description}>Html5</p>
                   </li>
                   <li className={styles.skill_item}>
-                    <div>
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-delay="400"
+                      >
                       <SiCss3 className={styles.skill_icon} style={{color: 'blue'}}/>
                       </div>
 
                       <p className={styles.description}>CSS3</p>
                   </li>
                   <li className={styles.skill_item}>
-                    <div>
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-delay="700"
+                      >
                       <SiJavascript className={styles.skill_icon} style={{color: 'gold'}}/>
                       </div>
 
                       <p className={styles.description}>JavaScript</p>
                   </li>
                   <li className={styles.skill_item}>
+                    <div 
+                      data-aos="zoom-in"
+                      data-aos-delay="1000"
+                      >
                     <animated.div style={colorful}>
                     <SiReact className={styles.skill_icon} />
                       </animated.div>
                       <p className={styles.description}>React</p>
+                    </div>
                   </li>
                 </ul>
               </div>
 
-              <div className={styles.skillset}>
-              <div className={styles.graph}>
-                    <div className={styles.setting}>
-                        <span>HTML5</span>
-                        
-                    </div>
-                    <div className={styles.htmlBar}>
-                        <div className={styles.htmlValue}></div>
-                    </div>
-                </div>
-
-                <div className={styles.graph}>
-                    <div className={styles.setting}>
-                        <span>CSS3</span>
-                        
-                    </div>
-                    <div className={styles.cssBar}>
-                        <div className={styles.cssValue}>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={styles.graph}>
-                    <div className={styles.setting}>
-                        <span>JavaScript</span>
-                        
-                    </div>
-                    <div className={styles.jsBar}>
-                        <div className={styles.jsValue} >
-                        </div>
-                    </div>
-                </div>
-
-                <div className={styles.graph}>
-                    <div className={styles.setting}>
-                        <span>React</span>
-                        
-                    </div>
-                    <div className={styles.reactBar}>
-                        <div className={styles.reactValue}>
-                        </div>
-                    </div>
-                </div>
-              </div>
-
+              
               <div className={styles.title}>
                 <h2>Tool</h2>
               </div>

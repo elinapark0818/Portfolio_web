@@ -36,6 +36,7 @@ const Profile = () => {
               <br/>
               <div
                 data-aos="fade-up"
+                data-aos-delay="200"
                 >
               <h3>"소프트웨어에는 사실 의미있는 것들이 거의 없다.<br/>
               만일 그런 게 있다고 할지라도,<br/>
