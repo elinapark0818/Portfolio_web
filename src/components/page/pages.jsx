@@ -10,17 +10,6 @@ import Skills from './skills/skills'
 
 export default function Pages() {
 
-  const [position, setPositon] = useState(0);
-  function onScroll() {
-    setPositon(window.scrollY);
-  }
-
-  useEffect(() => {
-    window.addEventListener("scroll", onScroll);
-    return () => {
-      window.removeEventListener("scroll",onScroll);
-    };
-  }, []);
 
   return (
     <div className={styles.pagesContainer}>

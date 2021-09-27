@@ -1,8 +1,20 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from './about.module.css';
 
 
 export default function About() {
+  const [position, setPositon] = useState(0);
+  function onScroll() {
+    setPositon(window.scrollY);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+    return () => {
+      window.removeEventListener("scroll",onScroll);
+    };
+  }, []);
+
   
   return (
       <div className={styles.about}>
@@ -12,7 +24,9 @@ export default function About() {
           <div className={styles.title}>
           <button className={styles.about_btn}>About</button>
           </div>
-          <div className={styles.ps}>
+          <div className={styles.ps} style={{
+          opacity: (position - 1000) / 50,
+        }}>
           <p>" 친절한 개발자가 되어 편리한 프로그램을 만들어서<br/>
           많은 사람들에게 도움을 줄 수 있는 사람으로 성장할겁니다.<br/>
           아래에는 저의 결심이 보통이 아니라는 것을 어필하고자 합니다."</p>
