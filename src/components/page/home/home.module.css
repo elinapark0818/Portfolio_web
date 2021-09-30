@@ -52,4 +52,8 @@ body {
     max-width: 100%;
     font-size: 0.6em;
   }
+
+  .title {
+    width: 21em;
+  }
 }

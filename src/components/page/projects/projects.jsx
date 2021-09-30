@@ -36,17 +36,6 @@ export default function Projects() {
                 </div>
             </div>
             
-            <div className={styles.project}>
-              <img 
-                src="./img/project_img/portfolio.png" 
-                alt="JavaScript portfolio" 
-                className={styles.project_img}
-                />
-                <div className={styles.project_description}>
-                  <h3>JavaScript portfolio</h3>
-                  <span>Html5, CSS3, Javascript</span>
-                </div>
-            </div>
             
             <div className={styles.project}>
               <img 
