@@ -32,7 +32,7 @@ export default function About() {
             <button
               className={styles.btn}
               onClick={()=> setToggle(!isToggle)}
-              >more
+              >자세히 보기
             </button>
             </div>
           <animated.div 
