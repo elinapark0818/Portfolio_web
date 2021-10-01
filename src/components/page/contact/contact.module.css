@@ -67,8 +67,23 @@
 
 .gmail {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   color: #eeeeee;
+}
+
+.default {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #eeeeee;
+}
+.mail {
+  margin: 0;
+}
+
+.phone {
+  margin: 0;
 }
 
 .github {

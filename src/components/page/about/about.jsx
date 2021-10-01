@@ -18,10 +18,10 @@ export default function About() {
           <button className={styles.about_btn}>About</button>
           </div>
           <div className={styles.psWrap}
-            data-aos="fade-up">
+            >
           <p className={styles.ps}>많은 사람들에게 도움을 줄 수 있는<br/>
           친절한 개발자로 성장하기 위한<br/>
-          훈련 과정.</p>
+          나만의 훈련 과정.</p>
           </div>
 
 
@@ -30,9 +30,10 @@ export default function About() {
             <div className={styles.aboutHeader}>
               
               <p>
-              ✔ 될 때까지 PERSISTENTLY <br/>
-              ✔ 제로에서 시작하는 HABBIT<br/>
-              ✔ 시간과 성장속도는 PROPORTIONAL
+              ✔ 될 때까지 <b>PERSISTENTLY</b> <br/>
+              ✔ 제로에서 시작하는 <b>HABBIT</b> <br/>
+              ✔ 꼼꼼하게 기반을 다지는 <b>BASIC</b><br/>
+              ✔ 시간과 성장속도는 <b>PROPORTIONAL</b>
               </p>
               <br/>
             </div>
@@ -40,16 +41,20 @@ export default function About() {
               data-aos="fade-up">
               <img src="./img/about_img/study.png" alt="임시" />
               <div className={styles.description}>
-                <p>개발자의 기본소양은 문제해결능력!<br/>
-                부딪치고 깨져도 포기하지 않는 힘!</p>
+                <p><b>PERSISTENTLY</b> <br/>
+                  개발자의 기본소양은 문제해결능력!<br/>
+                  하루 1문제 알고리즘<br/>
+                  #Baekjoon #Algorithm</p>
               </div>
             </div>
           <div className={styles.github}
               data-aos="fade-up">
               <img src="./img/about_img/study.png" alt="임시" />
               <div className={styles.description}>
-                <p>기억 보다는 기록을<br/>
-                  배우고 익힌 것을 보관하는 습관</p>
+                <p><b>HABBIT</b><br/>
+                  기억 보다는 기록을<br/>
+                  배우고 익힌 것을 보관하는 습관<br/>
+                  #Github #Commit #1.1K</p>
               </div>
             </div>
             
@@ -57,8 +62,10 @@ export default function About() {
               data-aos="fade-up">
               <img src="./img/about_img/study.png" alt="임시" />
               <div className={styles.description}>
-                <p>컴퓨터 과학은 기본<br/>
-                  모르면 안되는 것을 꼭 알자!</p>
+                <p><b>BASIC</b><br/>
+                  컴퓨터 과학은 기본<br/>
+                  모르면 아니되오<br/>
+                  #boostcourse #ComputerSience</p>
               </div>
             </div>
 
@@ -66,9 +73,10 @@ export default function About() {
               data-aos="fade-up">
               <img src="./img/about_img/study.png" alt="임시" />
               <div className={styles.description}>
-                <p>"Don't forget code your dream!" <br/>
-                  
-                  양질의 교육으로 기초를 탄탄히!</p>
+                <p><b>PROPORTIONAL</b><br/>
+                  "Don't forget code your dream!" <br/>
+                  양질의 교육으로 기초를 탄탄히!<br/>
+                  #Front-end #WebAPIs </p>
               </div>
             </div>
 

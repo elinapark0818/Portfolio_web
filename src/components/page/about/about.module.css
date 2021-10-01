@@ -71,8 +71,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2em;
-  margin-bottom: 2em;
   z-index: 10;
 }
 
@@ -113,11 +111,10 @@
 }
 
 .group {
-  margin: 5em;
+  margin-bottom: 2em;
 }
 
 .aboutHeader {
-  margin: 1em;
   display: flex;
   justify-content: center;
   align-items: center;

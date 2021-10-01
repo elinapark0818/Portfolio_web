@@ -9,9 +9,9 @@ export default function NavControl() {
   const [logo, setLogo] = useState("0")
   
   const listenScrollEvent = () => {
-    window.scrollY > 550 ? setnavColor("#1b1b1b") : setnavColor("transparent");
+    window.scrollY > 450 ? setnavColor("#1b1b1b") : setnavColor("transparent");
     window.scrollY > 100 ? setnavSize("5rem") : setnavSize("5rem");
-    window.scrollY > 100 ? setLogo("1") : setLogo("0");
+    window.scrollY > 250 ? setLogo("1") : setLogo("0");
   };
 
   useEffect(() => {

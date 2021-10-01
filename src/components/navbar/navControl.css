@@ -22,7 +22,8 @@
 .navLogo {
   color: #eeeeee;
   align-items: center;
-  margin: 1em;
+  margin-top: 0.8em;
+  margin-left: 1em;
   cursor: pointer;
   text-decoration: none;
   font-size: 2em;

@@ -10,56 +10,7 @@ export default function Projects() {
           </div>
           
           <main className={styles.project_box}>
-            
-            <div className={styles.project}>
-              <img 
-                src="./img/project_img/todo.png" 
-                alt="TodoList" 
-                className={styles.project_img}
-                />
-                <div className={styles.project_description}>
-                  <h3>To do list</h3>
-                  <span>Html5, CSS3, Javascript</span>
-                </div>
-              
-            </div>
-            
-            <div className={styles.project}>
-              <img 
-                src="./img/project_img/habit-tracker.png" 
-                alt="Habit-tracker" 
-                className={styles.project_img}
-                />
-                <div className={styles.project_description}>
-                  <h3>Habit-tracker</h3>
-                  <span>Html5, CSS3, React</span>
-                </div>
-            </div>
-            
-            
-            <div className={styles.project}>
-              <img 
-                src="./img/project_img/coordinates.png" 
-                alt="Realtime coordinates" 
-                className={styles.project_img}
-                />
-                <div className={styles.project_description}>
-                  <h3>Realtime coordinates</h3>
-                  <span>Html5, CSS3, Javascript</span>
-                </div>
-            </div>
-            
-            <div className={styles.project}>
-              <img 
-                src="./img/project_img/carrot.png" 
-                alt="minigame" 
-                className={styles.project_img}
-                />
-                <div className={styles.project_description}>
-                  <h3>Pick carrot game</h3>
-                  <span>Html5, CSS3, Javascript</span>
-                </div>
-            </div>
+            <p>대규모 업데이트 준비 중</p>
           </main>
       </div>
     </div>

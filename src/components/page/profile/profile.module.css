@@ -78,9 +78,10 @@
 
 .avatar {
   display: flex;
-  max-width: 18em;
-  height: 18em;
-  line-height: 18em;
+  max-width: 17em;
+  height: 17em;
+  line-height: 17em;
+  margin-top: 1em;
 }
 
 .description {

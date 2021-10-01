@@ -25,22 +25,23 @@ const Profile = () => {
 
             <div 
               className={styles.description}
-              data-aos="fade-up"
+              data-aos="fade-right"
               >
-              <h1>탄지로에 진심인,<br/>
+              <h1>사용성에 진심인,<br/>
               개발자 박윤정입니다.</h1>
               
               <div
-                data-aos="fade-up"
+                data-aos="fade-right"
                 data-aos-delay="200"
                 >
               <p className={styles.subTitle}>ABOUT ME</p>
               <p>박윤정<br/>
               1992.06.04</p>
               <p className={styles.subTitle}>EXPERIENCE</p>
-              <p>한국교통대학교 졸업<br/>
-              마이다스아이티(6개월)<br/>
-              스마일게이트RPG(12개월)</p>
+              <p>마이다스IT 품질혁신파트(6개월)<br/>
+              > JOBFLEX 출시 및 이슈왕<br/>
+              스마일게이트RPG 라이브운영파트(12개월)<br/>
+              > LOSTARK OBT Live Service</p>
               </div>
             </div>
           </main>
