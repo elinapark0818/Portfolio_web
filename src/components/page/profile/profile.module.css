@@ -2,12 +2,12 @@
   display: flex;
   width: 100%;
   margin: 0;
+  font-family: "NotoSans";
 }
 
 .container {
   width: 100%;
   font-size: 1.5em;
-  font-weight: bold;
   background: #1b1b1b;
   color: #eeeeee;
 }
@@ -86,12 +86,15 @@
 .description {
   display: flex;
   flex-direction: column;
-  font-size: 0.8em;
+  font-size: 1em;
   background-color: transparent;
   margin-left: 2em;
   margin-right: 1em;
   color: #eeeeee;
   padding: 0;
+}
+
+.profileDescription {
 }
 
 @media screen and (max-width: 770px) {

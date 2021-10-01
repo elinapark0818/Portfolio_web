@@ -2,6 +2,7 @@
   display: flex;
   width: 100vw;
   line-height: 100%;
+  font-family: "NotoSans";
 }
 
 .nav-container {

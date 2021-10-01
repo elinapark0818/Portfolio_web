@@ -1,7 +1,8 @@
 .pagesContainer {
   display: flex;
   flex-direction: column;
-  background-color: #1b1b1b;
+
   width: 100%;
   margin: 0;
+  font-family: "NotoSans";
 }

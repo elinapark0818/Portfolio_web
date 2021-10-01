@@ -23,9 +23,9 @@ export default function Home() {
         <animated.h1 className={styles.title}
           style={flipUp}
           >
-          Wave
+          Wave.
           <br/>Wherever
-          <br/>Changeable_
+          <br/>Changeable
         </animated.h1>
       </div>
     </div>
