@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 AOS.init();
 
 
-
 export default function About() {
   const [isToggle, setToggle] = useState(false);
   const fade = useSpring({
@@ -22,17 +21,17 @@ export default function About() {
           <div className={styles.title}>
           <button className={styles.about_btn}>About</button>
           </div>
-          <div className={styles.ps}
+          <div className={styles.psWrap}
             data-aos="fade-up">
-          <p>" 친절한 개발자가 되어 편리한 프로그램을 만들어서<br/>
-          많은 사람들에게 도움을 줄 수 있는 사람이 되고싶습니다.<br/>
-          아래에는 그 동안 개발자가 되기 위한 준비해온 과정을 담아보았습니다."</p>
+          <p className={styles.ps}>많은 사람들에게 도움을 줄 수 있는<br/>
+          친절한 개발자로 성장하기 위한<br/>
+          훈련 과정.</p>
           </div>
             <div className={styles.btnWrap}>
             <button
               className={styles.btn}
               onClick={()=> setToggle(!isToggle)}
-              >More
+              >➕들여다보기
             </button>
             </div>
           <animated.div 
@@ -51,12 +50,12 @@ export default function About() {
             
             <div className={styles.cs50}
               data-aos="fade-left">
+              <img src="./img/about_img/cs50_img.png" alt="cs50" />
               <div className={styles.description}>
                 <p>컴퓨터 과학은 기본적으로 숙지할 것<br/>
                   '우아한Tech'에서 cs관련 영상도 틈틈히 시청하고<br/>
                   모르면 안되는 것을 꼭 알도록 노력합니다.</p>
               </div>
-              <img src="./img/about_img/cs50_img.png" alt="cs50" />
             </div>
 
             <div className={styles.dreamcoding}

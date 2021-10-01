@@ -33,27 +33,27 @@ export default function NavControl() {
         <ul className="navList">
           <li className="navItem">
             <Link activeClass="active" to="home" spy={true} smooth={true}>
-              Home
+              HOME
             </Link></li>
           <li className="navItem">
             <Link to="profile" spy={true} smooth={true}>
-              Profile
+              PROFILE
             </Link></li>
           <li className="navItem">
             <Link to="about" spy={true} smooth={true}>
-              About
+              ABOUT
             </Link></li>
           <li className="navItem">
             <Link to="skills" spy={true} smooth={true}>
-              Skills
+              SKILLS
             </Link></li>
           <li className="navItem">
             <Link to="projects" spy={true} smooth={true}>
-              Projects
+              PROJECTS
             </Link></li>
           <li className="navItem">
             <Link to="contact" spy={true} smooth={true}>
-              Contact
+              CONTACT
             </Link></li>
         </ul>
       </div>
