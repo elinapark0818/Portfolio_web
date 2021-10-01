@@ -69,7 +69,7 @@
 .main {
   display: flex;
   justify-content: center;
-  margin-bottom: 1em;
+  margin-bottom: 4em;
 }
 
 .image {
@@ -78,23 +78,27 @@
 
 .avatar {
   display: flex;
-  max-width: 20em;
-  height: 20em;
-  line-height: 20em;
+  max-width: 18em;
+  height: 18em;
+  line-height: 18em;
 }
 
 .description {
   display: flex;
   flex-direction: column;
-  font-size: 1em;
+  font-size: 0.9em;
   background-color: transparent;
+  margin-top: -1em;
   margin-left: 2em;
   margin-right: 1em;
   color: #eeeeee;
   padding: 0;
 }
 
-.profileDescription {
+.subTitle {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: -1em;
 }
 
 @media screen and (max-width: 770px) {

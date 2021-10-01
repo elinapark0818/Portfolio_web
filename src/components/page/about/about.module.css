@@ -68,7 +68,7 @@
 
 .psWrap {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 2em;
@@ -112,6 +112,10 @@
   transition: 300ms ease-in-out;
 }
 
+.group {
+  margin: 5em;
+}
+
 .aboutHeader {
   margin: 1em;
   display: flex;
@@ -121,15 +125,14 @@
 }
 .github {
   display: flex;
-  flex-wrap: wrap;
   margin: 1em;
   justify-content: center;
 }
 
 .github img {
-  width: 20em;
-  height: 10em;
-  line-height: 10em;
+  width: 10em;
+  height: 8em;
+  line-height: 8em;
   max-width: 100%;
 }
 
@@ -143,17 +146,15 @@
 
 .solved {
   display: flex;
-  flex-wrap: wrap;
   margin: 1em;
   justify-content: center;
 }
 
 .solved img {
-  width: 5em;
-  height: 5em;
-  line-height: 5em;
+  width: 10em;
+  height: 8em;
+  line-height: 8em;
   max-width: 100%;
-  margin-top: 2.5em;
 }
 
 .solved .description {
@@ -165,15 +166,14 @@
 
 .cs50 {
   display: flex;
-  flex-wrap: wrap;
   margin: 1em;
   justify-content: center;
 }
 
 .cs50 img {
-  width: 20em;
-  height: 15em;
-  line-height: 15em;
+  width: 10em;
+  height: 8em;
+  line-height: 8em;
   max-width: 100%;
 }
 
@@ -186,15 +186,14 @@
 
 .dreamcoding {
   display: flex;
-  flex-wrap: wrap;
   margin: 1em;
   justify-content: center;
 }
 
 .dreamcoding img {
-  width: 20em;
-  height: 10em;
-  line-height: 10em;
+  width: 10em;
+  height: 8em;
+  line-height: 8em;
   max-width: 100%;
 }
 
