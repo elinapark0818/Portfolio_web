@@ -34,10 +34,22 @@ export default function About() {
               >➕들여다보기
             </button>
             </div>
+
+
           <animated.div 
             className={styles.group}
             style={fade}
             >
+
+            <div className={styles.aboutHeader}>
+              
+              <p>
+              - 될 때까지 PERSISTENTLY <br/>
+              - 제로에서 시작하는 HABBIT<br/>
+              - 시간과 성장속도는 PROPORTIONAL
+              </p>
+              <br/>
+            </div>
           <div className={styles.github}
               data-aos="fade-right">
               <img src="./img/about_img/github_img.png" alt="github" />

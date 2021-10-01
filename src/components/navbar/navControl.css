@@ -9,12 +9,13 @@
   display: flex;
   justify-content: flex-end;
   margin: 0;
-  height: 2.5em;
+  background-color: navColor;
   width: 100vw;
+  height: navSize;
   top: 0;
   transition-timing-function: ease-in;
   transition: 0.5s;
-  z-index: 100;
+  z-index: 10;
 }
 
 .navLogo {
@@ -45,7 +46,7 @@
 }
 .navItem:after {
   background: none repeat scroll 0 0 transparent;
-  bottom: 10px;
+  bottom: 13px;
   content: "";
   display: block;
   height: 1px;

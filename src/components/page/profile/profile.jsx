@@ -27,9 +27,9 @@ const Profile = () => {
               className={styles.description}
               data-aos="fade-up"
               >
-              <h3>이름 : 박 윤 정<br/>
-              생년월일 : 1992.06.04<br/>
-              학력 : 한국교통대학교 졸업<br/>
+              <h3>이름 - 박 윤 정<br/>
+              생년월일 - 1992.06.04<br/>
+              학력 - 한국교통대학교 졸업<br/>
               마이다스아이티 QA (6개월)<br/>
               스마일게이트RPG GM (12개월)<br/>
               </h3>

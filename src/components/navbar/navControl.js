@@ -4,12 +4,12 @@ import './navControl.css';
 
 
 export default function NavControl() {
-  const [navSize, setnavSize] = useState("10rem");
+  const [navSize, setnavSize] = useState("5rem");
   const [navColor, setnavColor] = useState("transparent");
   
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setnavColor("#1b1b1b") : setnavColor("transparent");
-    window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
+    window.scrollY > 100 ? setnavColor("#1b1b1b") : setnavColor("transparent");
+    window.scrollY > 100 ? setnavSize("5rem") : setnavSize("5rem");
   };
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export default function NavControl() {
           transition: "all 1s"
         }}>
           <div className="navLogo">
-            developer Elina
+            Wave.
           </div>
         <ul className="navList">
           <li className="navItem">

@@ -1,6 +1,5 @@
 body {
-  margin: 0;
-  height: 40em;
+  width: 100%;
 }
 
 .container {
@@ -15,28 +14,20 @@ body {
   position: relative;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes cursor {
-  50% {
-    border-color: transparent;
-  }
+.titleWrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+
   color: #eeeeee;
-  background-color: #000;
-  font-size: 2em;
+  font-size: 5em;
   z-index: 1;
-  width: 22em;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 0.05em solid #eeeeee;
-  animation: typing 3s steps(20), cursor 1s steps(1) infinite;
+  margin: 0;
 }
 
 .img {
