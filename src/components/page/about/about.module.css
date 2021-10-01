@@ -107,6 +107,11 @@
   color: #eeeeee;
 }
 
+.btn:hover {
+  transform: scale(1.02);
+  transition: 300ms ease-in-out;
+}
+
 .aboutHeader {
   margin: 1em;
   display: flex;

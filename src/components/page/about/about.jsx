@@ -31,7 +31,7 @@ export default function About() {
             <button
               className={styles.btn}
               onClick={()=> setToggle(!isToggle)}
-              >➕들여다보기
+              >+ 자세히 보기
             </button>
             </div>
 
@@ -44,9 +44,9 @@ export default function About() {
             <div className={styles.aboutHeader}>
               
               <p>
-              - 될 때까지 PERSISTENTLY <br/>
-              - 제로에서 시작하는 HABBIT<br/>
-              - 시간과 성장속도는 PROPORTIONAL
+              ✔ 될 때까지 PERSISTENTLY <br/>
+              ✔ 제로에서 시작하는 HABBIT<br/>
+              ✔ 시간과 성장속도는 PROPORTIONAL
               </p>
               <br/>
             </div>

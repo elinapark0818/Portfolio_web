@@ -10,7 +10,9 @@ import Pages from './components/page/pages';
 export default function App() {
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider 
+      theme={theme}
+      className={styles.app}>
       <NavControl/>
       <Pages/>
       <TopBtn/>
