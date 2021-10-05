@@ -5,6 +5,7 @@ import { SiGithub } from "react-icons/si";
 
 
 export default function Contact() {
+
   const color = useSpring({
     loop: true,
     to: [
@@ -20,9 +21,9 @@ export default function Contact() {
         <div className={styles.title}>
           <button className={styles.contact_btn}>Contact</button>
           </div>
-            <p className={styles.default}>"이 한 몸 바쳐 회사와 함께 성장할 것을 약속드립니다."</p>
+            <p className={styles.default}>"어제보다 더 발전한 오늘을 함께하기를"</p>
             <div className={styles.gmail}>
-              <p className={styles.phone}> +82)10.2790.9453</p>
+              <p className={styles.phone}> +82 10.2790.9453</p>
               <p className={styles.mail}>elinapark0818@gmail.com</p>
             </div>
             <animated.div className={styles.github} style={color}>
@@ -31,6 +32,6 @@ export default function Contact() {
               />
             </animated.div>
         </div>
+        
     </div>
-  )
-}
+  )}
