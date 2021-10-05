@@ -39,9 +39,9 @@ const Profile = () => {
               1992.06.04</p>
               <p className={styles.subTitle}>EXPERIENCE</p>
               <p>마이다스IT 품질혁신파트(2020.09~2021.01)<br/>
-              > JOBFLEX 출시 및 이슈왕<br/>
+              - JOBFLEX QAQC 및 이슈왕<br/>
               스마일게이트RPG 라이브운영파트(2018.12~2019.12)<br/>
-              > LOSTARK OBT Live Service</p>
+              - LOSTARK OBT Live Service</p>
               </div>
             </div>
           </main>

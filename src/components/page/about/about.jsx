@@ -33,6 +33,7 @@ export default function About() {
               ✔ 될 때까지 <b>PERSISTENTLY</b> <br/>
               ✔ 제로에서 시작하는 <b>HABBIT</b> <br/>
               ✔ 꼼꼼하게 기반을 다지는 <b>BASIC</b><br/>
+              ✔ 놓치지 않을거에요 <b>THOROUGH</b><br/>
               ✔ 시간과 성장속도는 <b>PROPORTIONAL</b>
               </p>
               <br/>
@@ -66,6 +67,18 @@ export default function About() {
                   컴퓨터 과학은 기본<br/>
                   모르면 아니되오<br/>
                   #boostcourse #ComputerSience</p>
+              </div>
+            </div>
+
+
+            <div className={styles.dreamcoding}
+              data-aos="fade-up">
+              <img src="./img/about_img/study.png" alt="임시" />
+              <div className={styles.description}>
+                <p><b>THOROUGH</b><br/>
+                  누구보다 꼼꼼하게<br/>
+                  사이드이펙트도 놓치지 않기<br/>
+                  #Debug #Quality </p>
               </div>
             </div>
 
