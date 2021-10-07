@@ -120,84 +120,26 @@
   align-items: center;
   flex-direction: column;
 }
-.github {
-  display: flex;
-  margin: 1em;
-  justify-content: center;
-}
 
-.github img {
-  width: 10em;
-  height: 8em;
-  line-height: 8em;
-  max-width: 100%;
-}
-
-.github .description {
+.aboutMain {
   display: flex;
+  flex-direction: column;
   align-items: center;
-
-  margin: 1em;
-  padding: 0.5em;
 }
 
-.solved {
+.mainWrap {
   display: flex;
-  margin: 1em;
-  justify-content: center;
+  margin: 2em;
 }
 
-.solved img {
+.mainWrap img {
   width: 10em;
-  height: 8em;
-  line-height: 8em;
-  max-width: 100%;
+  height: 9em;
+  -webkit-box-shadow: 5px 15px 15px 5px rgba(0, 0, 0, 0.43);
+  box-shadow: 5px 15px 15px 5px rgba(0, 0, 0, 0.43);
 }
 
-.solved .description {
-  display: flex;
-  align-items: center;
-  margin: 1em;
-  padding: 0.5em;
-}
-
-.cs50 {
-  display: flex;
-  margin: 1em;
-  justify-content: center;
-}
-
-.cs50 img {
-  width: 10em;
-  height: 8em;
-  line-height: 8em;
-  max-width: 100%;
-}
-
-.cs50 .description {
-  display: flex;
-  align-items: center;
-  margin: 1em;
-  padding: 0.5em;
-}
-
-.dreamcoding {
-  display: flex;
-  margin: 1em;
-  justify-content: center;
-}
-
-.dreamcoding img {
-  width: 10em;
-  height: 8em;
-  line-height: 8em;
-  max-width: 100%;
-}
-
-.dreamcoding .description {
-  display: flex;
-  align-items: center;
-
-  margin: 1em;
-  padding: 0.5em;
+.description {
+  margin-left: 2em;
+  align-self: center;
 }

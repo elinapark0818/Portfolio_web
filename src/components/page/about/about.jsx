@@ -38,9 +38,13 @@ export default function About() {
               </p>
               <br/>
             </div>
-            <div className={styles.solved}
+
+
+            <div className={styles.aboutMain}>
+
+            <div className={styles.mainWrap}
               data-aos="fade-up">
-              <img src="./img/about_img/study.png" alt="임시" />
+              <img src="./img/about_img/security.jpg" alt="security" />
               <div className={styles.description}>
                 <p><b>PERSISTENTLY</b> <br/>
                   개발자의 기본소양은 문제해결능력!<br/>
@@ -48,20 +52,20 @@ export default function About() {
                   #Baekjoon #Algorithm</p>
               </div>
             </div>
-          <div className={styles.github}
+          <div className={styles.mainWrap}
               data-aos="fade-up">
-              <img src="./img/about_img/study.png" alt="임시" />
+              <img src="./img/about_img/github.png" alt="github" />
               <div className={styles.description}>
                 <p><b>HABBIT</b><br/>
                   기억 보다는 기록을<br/>
-                  배우고 익힌 것을 보관하는 습관<br/>
+                  내것으로 만들기 위해 보관하는 습관<br/>
                   #Github #Commit #1.1K</p>
               </div>
             </div>
             
-            <div className={styles.cs50}
+            <div className={styles.mainWrap}
               data-aos="fade-up">
-              <img src="./img/about_img/study.png" alt="임시" />
+              <img src="./img/about_img/cs50.png" alt="cs50" />
               <div className={styles.description}>
                 <p><b>BASIC</b><br/>
                   컴퓨터 과학은 기본<br/>
@@ -71,18 +75,18 @@ export default function About() {
             </div>
 
 
-            <div className={styles.dreamcoding}
+            <div className={styles.mainWrap}
               data-aos="fade-up">
-              <img src="./img/about_img/study.png" alt="임시" />
+              <img src="./img/about_img/debug.png" alt="debug" />
               <div className={styles.description}>
                 <p><b>THOROUGH</b><br/>
                   누구보다 꼼꼼하게<br/>
-                  사이드이펙트도 놓치지 않기<br/>
+                  사이드이펙트도 놓치지 않고 끝까지<br/>
                   #Debug #Quality </p>
               </div>
             </div>
 
-            <div className={styles.dreamcoding}
+            <div className={styles.mainWrap}
               data-aos="fade-up">
               <img src="./img/about_img/study.png" alt="임시" />
               <div className={styles.description}>
@@ -92,7 +96,7 @@ export default function About() {
                   #Front-end #WebAPIs </p>
               </div>
             </div>
-
+            </div>
           </animated.div>
           
 
