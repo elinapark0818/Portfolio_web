@@ -92,8 +92,13 @@
   margin: 1em;
 }
 
+.githubAdress {
+  margin-right: 1em;
+  cursor: pointer;
+}
+
 .icon {
-  font-size: 2em;
+  font-size: 1.5em;
   cursor: pointer;
   transition: all 300ms ease-in;
 }

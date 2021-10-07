@@ -27,6 +27,8 @@ export default function Contact() {
               <p className={styles.mail}>elinapark0818@gmail.com</p>
             </div>
             <animated.div className={styles.github} style={color}>
+              <span className={styles.githubAdress}
+              onClick={() => window.open('https://github.com/elinapark0818', '_blank')}> Go to github </span>
               <SiGithub className={styles.icon}
               onClick={() => window.open('https://github.com/elinapark0818', '_blank')}
               />
