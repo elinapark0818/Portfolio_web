@@ -112,12 +112,18 @@
 .project_box {
   background: #1b1b1b;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   opacity: 1;
   transition: all 300ms ease-out;
   margin: 1em;
   padding: 1em;
+}
+
+.ready,
+.spinner {
+  display: flex;
+  justify-content: center;
 }
 
 .project {

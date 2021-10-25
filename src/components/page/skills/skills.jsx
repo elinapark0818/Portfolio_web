@@ -68,7 +68,7 @@ export default function Skills() {
                       data-aos-delay="1000"
                       >
                     <animated.div style={colorful}>
-                    <SiReact className={styles.skill_icon} />
+                    <SiReact className={styles.react_icon} />
                       </animated.div>
                       <p className={styles.description}>React</p>
                     </div>

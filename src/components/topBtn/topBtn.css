@@ -3,7 +3,13 @@
 } */
 
 .topBtn:hover {
-  color: gold;
+  color: rgb(238, 238, 238);
+  color: linear-gradient(
+    0deg,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(27, 27, 27, 1) 100%
+  );
+  color: #1b1b1b;
   background-color: transparent;
   transform: translateY(-7px);
 }
@@ -17,7 +23,7 @@
   position: fixed;
   cursor: pointer;
   background-color: transparent;
-  color: gold;
+  color: #1b1b1b;
   opacity: 0;
   bottom: 2em;
   right: 2em;
