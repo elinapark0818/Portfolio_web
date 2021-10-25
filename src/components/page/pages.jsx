@@ -7,6 +7,7 @@ import Home from './home/home'
 import Profile from './profile/profile'
 import Projects from './projects/projects'
 import Skills from './skills/skills'
+import Spinner from '../spinner/spinner';
 
 export default function Pages() {
 
@@ -14,6 +15,7 @@ export default function Pages() {
   return (
     <div className={styles.pagesContainer}>
       <div id="home"><Home/></div>
+      <Spinner/>
       <div id="profile"><Profile/></div>
       <div id="about"><About/></div>
       <div id="skills"><Skills/></div>
