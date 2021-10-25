@@ -1,0 +1,14 @@
+.project {
+  display: flex;
+  color: #1b1b1b;
+  background-color: #eeeeee;
+}
+
+.project img {
+  width: 30em;
+}
+
+.description {
+  margin: 0;
+  margin-left: 1em;
+}
