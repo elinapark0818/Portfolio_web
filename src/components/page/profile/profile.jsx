@@ -26,13 +26,14 @@ const Profile = () => {
             <div 
               className={styles.description}
               data-aos="fade-right"
+              data-aos-delay="100"
               >
               <h1>사용성에 진심인,<br/>
               개발자 박윤정입니다.</h1>
               
               <div
                 data-aos="fade-right"
-                data-aos-delay="200"
+                data-aos-delay="300"
                 >
               <p className={styles.subTitle}>ABOUT ME</p>
               <p>박윤정<br/>

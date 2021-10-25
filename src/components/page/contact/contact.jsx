@@ -21,11 +21,11 @@ export default function Contact() {
         <div className={styles.title}>
           <button className={styles.contact_btn}>Contact</button>
           </div>
-            <p className={styles.default}>"어제보다 더 발전한 오늘을 함께하기를"</p>
-            <div className={styles.gmail}>
+            <div className={styles.description}>
               <p className={styles.phone}> +82 10.2790.9453</p>
               <p className={styles.mail}>elinapark0818@gmail.com</p>
             </div>
+            <p className={styles.default}>"어제보다 더 발전한 오늘을 함께할 수 있도록 노력하겠습니다."</p>
             <animated.div className={styles.github} style={color}>
               <span className={styles.githubAdress}
               onClick={() => window.open('https://github.com/elinapark0818', '_blank')}> Go to github </span>

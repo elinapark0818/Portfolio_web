@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
   background: #1b1b1b;
   color: #eeeeee;
@@ -65,11 +65,16 @@
   justify-content: center;
 }
 
-.gmail {
+.description {
+  margin-top: 1em;
+}
+.mail,
+.phone {
   display: flex;
   align-items: center;
   flex-direction: column;
   color: #eeeeee;
+  margin: 0;
 }
 
 .default {
@@ -77,13 +82,8 @@
   align-items: center;
   flex-direction: column;
   color: #eeeeee;
-}
-.mail {
-  margin: 0;
-}
-
-.phone {
-  margin: 0;
+  font-size: 1em;
+  font-weight: lighter;
 }
 
 .github {
