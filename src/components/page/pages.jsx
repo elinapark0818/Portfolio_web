@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import styles from './pages.module.css';
-import Toggle from '../toggle/toggle'
 import About from './about/about'
 import Contact from './contact/contact'
 import Home from './home/home'
