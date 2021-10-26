@@ -1,14 +1,25 @@
+.container {
+  margin: 5em;
+}
+
 .project {
   display: flex;
   color: #1b1b1b;
   background-color: #eeeeee;
+  margin-top: 1em;
 }
 
 .project img {
-  width: 30em;
+  width: 20em;
+  height: auto;
 }
 
 .description {
   margin: 0;
   margin-left: 1em;
+}
+
+.text {
+  background-color: blueviolet;
+  font-size: 0.8em;
 }

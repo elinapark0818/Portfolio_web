@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from '../../carousel/carousel';
+import ProjectBox from '../../carousel/projectBox';
 import Spinner from '../../spinner/spinner';
 import styles from './projects.module.css';
 
@@ -17,7 +17,7 @@ export default function Projects() {
             {/* <div className={styles.spinner}>
               <Spinner/>
             </div> */}
-            <Carousel/>
+            <ProjectBox/>
           </main>
       </div>
     </div>
