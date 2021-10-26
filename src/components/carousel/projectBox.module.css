@@ -1,25 +1,33 @@
 .container {
-  margin: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .project {
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: #1b1b1b;
   background-color: #eeeeee;
   margin-top: 1em;
 }
 
 .project img {
-  width: 20em;
+  width: 18em;
   height: auto;
 }
 
 .description {
-  margin: 0;
-  margin-left: 1em;
+  margin: 1em;
 }
 
 .text {
   background-color: blueviolet;
   font-size: 0.8em;
+}
+
+.projectImg {
+  margin: 1em;
 }

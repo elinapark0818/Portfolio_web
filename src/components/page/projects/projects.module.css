@@ -2,8 +2,7 @@
   width: 100%;
   font-size: 2em;
   margin-top: 0;
-  background: #1b1b1b;
-  color: #eeeeee;
+  color: #1b1b1b;
   font-family: "NotoSans";
 }
 
@@ -25,7 +24,7 @@
 }
 .projects_btn {
   background-color: transparent;
-  color: #eeeeee;
+  color: #1b1b1b;
   border: none;
   position: relative;
   height: 2em;
@@ -42,7 +41,7 @@
 
 .projects_btn:hover {
   background: transparent;
-  color: #eeeeee;
+  color: #1b1b1b;
 }
 .projects_btn:before,
 .projects_btn:after {
@@ -52,7 +51,7 @@
   right: 0;
   height: 2px;
   width: 0;
-  background: #eeeeee;
+  background: #1b1b1b;
   transition: 400ms ease all;
 }
 .projects_btn:after {
@@ -67,50 +66,7 @@
   transition: 800ms ease all;
 }
 
-/* 카테고리 */
-
-.categories {
-  display: flex;
-  justify-content: center;
-  margin: 2em;
-}
-
-.category_btn {
-  border: 1px solid darkmagenta;
-  border-radius: 5em;
-  padding: 1em 3em;
-  position: relative;
-}
-
-.category_btn.selected,
-.category_btn:hover {
-  background-color: darkorchid;
-  color: #eeeeee;
-}
-
-.category_btn.selected .category_count,
-.category_btn:hover .category_count {
-  opacity: 1;
-  top: 0.4em;
-}
-
-.category_count {
-  background-color: violet;
-  border-radius: 50%;
-  color: #eeeeee;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  display: inline-block;
-  position: absolute;
-  top: -1em;
-  right: 0.5em;
-  opacity: 0;
-  transition: all 300ms ease-in;
-}
-
 .project_box {
-  background: aqua;
   display: flex;
   flex-direction: column;
   justify-content: center;
