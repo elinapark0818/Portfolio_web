@@ -12,11 +12,11 @@ export default function Projects() {
           </div>
           
           <main className={styles.project_box}>
-            {/* <p className={styles.ready}>
-              대규모 업데이트 준비 중</p> */}
-            {/* <div className={styles.spinner}>
+            <p className={styles.ready}>
+              업데이트 중입니다</p>
+            <div className={styles.spinner}>
               <Spinner/>
-            </div> */}
+            </div>
             <ProjectBox/>
           </main>
       </div>
