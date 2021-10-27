@@ -8,10 +8,22 @@ export default function ProjectBox() {
 
       <div className={styles.project}>
         <div className={styles.projectImg}>
+          <img src="./img/project_img/shopping.png" alt="shopping" />
+        </div>
+          <div className={styles.description}>
+            <h3> Shopping list</h3>
+            <h4 className={styles.text}> 
+              Javascript <br/>
+              
+            </h4>
+          </div>
+      </div>
+      <div className={styles.project}>
+        <div className={styles.projectImg}>
           <img src="./img/project_img/todo.png" alt="todo" />
         </div>
           <div className={styles.description}>
-            <h3> To do list</h3>
+            <h3> Todo list</h3>
             <h4 className={styles.text}> 
               Javascript <br/>
               
@@ -40,7 +52,7 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3>Carrot game</h3>
             <h4 className={styles.text}> 
-              JavaScript <br/>
+              Web APIs <br/>
               
             </h4>
           </div>
@@ -52,10 +64,9 @@ export default function ProjectBox() {
         <img src="./img/project_img/cardMaker.png" alt="cardMaker" />
         </div>
           <div className={styles.description}>
-            <h3>Business Card Maker</h3>
+            <h3>Card Maker</h3>
             <h4 className={styles.text}> 
-              firebase Auth <br/>
-              firebase realtime database <br/>
+              firebase<br/>
               
             </h4>
           </div>
@@ -69,7 +80,7 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3>Full Calendar</h3>
             <h4 className={styles.text}> 
-              full-calendar setting <br/>
+              full-calendar library<br/>
               
             </h4>
           </div>
@@ -81,10 +92,11 @@ export default function ProjectBox() {
         <img src="./img/project_img/coordinates.png" alt="coordinates" />
         </div>
           <div className={styles.description}>
-            <h3>Realtime Coordinates</h3>
+            <h3>Coordinates</h3>
             <h4 className={styles.text}> 
               getBoundingClientRect() <br/>
-              
+              window-load <br/>
+              window-size <br/>
             </h4>
           </div>
       </div>
@@ -98,6 +110,7 @@ export default function ProjectBox() {
             <h3>Clothes category</h3>
             <h4 className={styles.text}> 
               JavaScript <br/>
+              json <br/>
 
             </h4>
           </div>
