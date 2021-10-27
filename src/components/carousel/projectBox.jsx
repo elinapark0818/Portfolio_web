@@ -13,14 +13,8 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3> To do list</h3>
             <h4 className={styles.text}> 
-              document.querySelector() <br/>
-              createItem() <br/>
-              appendChild() <br/>
-              scrollIntoView() <br/>
-              document.createElement() <br/>
-              setAttribute() <br/>
-              addEventListener() <br/>
-              innerHTML
+              Javascript <br/>
+              
             </h4>
           </div>
       </div>
@@ -32,14 +26,8 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3>Habit Tracker</h3>
             <h4 className={styles.text}> 
-              document.querySelector() <br/>
-              createItem() <br/>
-              appendChild() <br/>
-              scrollIntoView() <br/>
-              document.createElement() <br/>
-              setAttribute() <br/>
-              addEventListener() <br/>
-              innerHTML
+              React Hook<br/>
+              
             </h4>
           </div>
       </div>
@@ -52,14 +40,8 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3>Carrot game</h3>
             <h4 className={styles.text}> 
-              document.querySelector() <br/>
-              createItem() <br/>
-              appendChild() <br/>
-              scrollIntoView() <br/>
-              document.createElement() <br/>
-              setAttribute() <br/>
-              addEventListener() <br/>
-              innerHTML
+              JavaScript <br/>
+              
             </h4>
           </div>
       </div>
@@ -72,14 +54,9 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3>Business Card Maker</h3>
             <h4 className={styles.text}> 
-              document.querySelector() <br/>
-              createItem() <br/>
-              appendChild() <br/>
-              scrollIntoView() <br/>
-              document.createElement() <br/>
-              setAttribute() <br/>
-              addEventListener() <br/>
-              innerHTML
+              firebase Auth <br/>
+              firebase realtime database <br/>
+              
             </h4>
           </div>
       </div>
@@ -92,14 +69,8 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3>Full Calendar</h3>
             <h4 className={styles.text}> 
-              document.querySelector() <br/>
-              createItem() <br/>
-              appendChild() <br/>
-              scrollIntoView() <br/>
-              document.createElement() <br/>
-              setAttribute() <br/>
-              addEventListener() <br/>
-              innerHTML
+              full-calendar setting <br/>
+              
             </h4>
           </div>
       </div>
@@ -112,14 +83,8 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3>Realtime Coordinates</h3>
             <h4 className={styles.text}> 
-              document.querySelector() <br/>
-              createItem() <br/>
-              appendChild() <br/>
-              scrollIntoView() <br/>
-              document.createElement() <br/>
-              setAttribute() <br/>
-              addEventListener() <br/>
-              innerHTML
+              getBoundingClientRect() <br/>
+              
             </h4>
           </div>
       </div>
@@ -132,14 +97,8 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3>Clothes category</h3>
             <h4 className={styles.text}> 
-              document.querySelector() <br/>
-              createItem() <br/>
-              appendChild() <br/>
-              scrollIntoView() <br/>
-              document.createElement() <br/>
-              setAttribute() <br/>
-              addEventListener() <br/>
-              innerHTML
+              JavaScript <br/>
+
             </h4>
           </div>
       </div>
@@ -152,14 +111,8 @@ export default function ProjectBox() {
           <div className={styles.description}>
             <h3>Youtube mobile</h3>
             <h4 className={styles.text}> 
-              document.querySelector() <br/>
-              createItem() <br/>
-              appendChild() <br/>
-              scrollIntoView() <br/>
-              document.createElement() <br/>
-              setAttribute() <br/>
-              addEventListener() <br/>
-              innerHTML
+              Youtube APIs <br/>
+              
             </h4>
           </div>
       </div>
