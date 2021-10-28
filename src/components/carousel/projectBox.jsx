@@ -8,25 +8,12 @@ export default function ProjectBox() {
 
       <div className={styles.project}>
         <div className={styles.projectImg}>
-          <img src="./img/project_img/shopping.png" alt="shopping" />
-        </div>
-          <div className={styles.description}>
-            <h3> Shopping list</h3>
-            <h4 className={styles.text}> 
-              Javascript <br/>
-              
-            </h4>
-          </div>
-      </div>
-      <div className={styles.project}>
-        <div className={styles.projectImg}>
           <img src="./img/project_img/todo.png" alt="todo" />
         </div>
           <div className={styles.description}>
             <h3> Todo list</h3>
             <h4 className={styles.text}> 
               Javascript <br/>
-              
             </h4>
           </div>
       </div>
@@ -40,6 +27,18 @@ export default function ProjectBox() {
             <h4 className={styles.text}> 
               React Hook<br/>
               
+            </h4>
+          </div>
+      </div>
+
+      <div className={styles.project}>
+        <div className={styles.projectImg}>
+          <img src="./img/project_img/shopping.png" alt="shopping" />
+        </div>
+          <div className={styles.description}>
+            <h3> Shopping list</h3>
+            <h4 className={styles.text}> 
+              Javascript <br/>
             </h4>
           </div>
       </div>
